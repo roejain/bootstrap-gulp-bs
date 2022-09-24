@@ -1,3 +1,205 @@
-$body-color: rebeccapurple;
+// $body-color: rebeccapurple;
 
 @import "node_modules/bootstrap/scss/bootstrap";
+
+
+.container{
+    margin: 3px solid black;
+    //background-color: pink ;
+    padding-left: 0 rem;
+    margin-left: 1 rem;
+    margin-right: 1 rem;
+    // padding-right: 0%;
+}
+div.container{
+    border: 1px solid black;
+}
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/81/743/637/toy-story-toy-story-3-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    //padding-right: 3rem;
+    // padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1 rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    // background-color: pink;
+}
+#CONTACT{
+    text-align: center;
+    justify-content: center;
+    background-color: gray;
+    color: wheat;
+    padding: 1%;
+
+}
+a:link {
+    color: beige;
+  }
+  
+  
+  a:hover {
+    color: lightcyan;
+  }
+ 
+  
+  h1.welcome{
+      align-items: center;
+      color: lightcyan;
+      font-family: 'Lucida Handwriting';
+      
+  }
+
+
+h4{
+    text-align: right;
+    justify-content: right;
+    
+    color:black;
+    
+    
+}
+
+button.addtocartB {
+    background-color:lightcyan;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 32px;
+    border-radius:12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    
+  }
+  button.addtocartB:hover{
+      background-color: yellow;
+      color: black;
+      font-family: cursive;
+  }
+
+
+div.col{
+    font-family: 'Apple Chancery, cursive';
+}
+
+
+div.col-md-6{
+    border: 2px solid black; 
+    background-color:pink;
+    border-left: none;
+    text-align: left;
+    font-family: 'Lucida Handwriting';
+    color: black;
+    
+    
+    
+}
+
+
+div.col-md-3{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-right: 6px;;
+    //border: 1px solid black;
+    background-color: transparent;
+    border-right: none;
+   // border-left: 7px solid pink;
+    
+}
+span.a{
+    text-align: center;
+    font-style: italic;
+    text-shadow: darkgray;
+    color: lightcyan;
+    padding: 5px;
+    font-family: 'Lucida Handwriting';
+//     width: 100px;
+//   height: 100px;
+//   border: 1px solid blue; 
+//   background-color: hotpink;
+}
+span.b{
+    text-align: center;
+    font-style: italic;
+    text-shadow: darkgray;
+    color: lightcyan;
+    padding: 5px;
+    font-family: 'Lucida Handwriting';
+//     width: 100px;
+//   height: 100px;
+//   border: 1px solid blue; 
+//   background-color: hotpink;
+}
+header{
+    position: fixed;
+    // height: 100%;
+    // width: auto;
+    // background: transparent;
+    // padding-right: 0px;
+    // padding-top: 0rem;
+    border: 1px solid white;
+    //display: flex;
+    //align-items: center;
+    //justify-content: right;
+    // flex-flow: column;
+    // text-align: right;
+    opacity: 0.8;
+}
+
+#cart.collapse{
+    background-color: lightcyan;
+    color: lightslategray;
+    opacity: 1;
+ }
+
+#coupon{
+    color: lightsteelblue;
+    
+}
+#coupon:hover{
+    background-color:yellow;
+    color: black;
+}
+#d200{
+    color: lightskyblue;
+}
+#apply{
+    color: lightsteelblue;
+}
+#apply:hover{
+    background-color:yellow;
+    color: black;
+}
+#placeorder{
+    color: lightsteelblue;
+}
+#placeorder:hover{
+    background-color:yellow;
+    color: black;
+}
+
+header.container-fluid {
+    position: fixed;
+//  background-color: black !important;
+ opacity: 1.0 ;
+ color: white;
+ padding-right: 1rem;
+}
+#cart{
+   margin-right: 1rem;
+    padding-right: 2rem;
+}
+.removebtn{
+    font-family: cursive;
+    color: chocolate;
+    border: 1px solid black;
+    background-color: pink;
+    cursor: pointer;
+}
+.removebtn:hover{
+    color: red;
+}
